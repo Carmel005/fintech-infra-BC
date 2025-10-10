@@ -5,7 +5,7 @@
 variable "aws_account_id" {
   description = "AWS Account ID"
   type        = string
-  default     = "327019199684"
+  default     = "897729103769"
 }
 
 variable "aws_region" {
@@ -52,7 +52,7 @@ variable "cluster_name" {
 variable "rolearn" {
   description = "IAM role ARN to be added to the aws-auth configmap as admin"
   type        = string
-  default     = "arn:aws:iam::327019199684:role/terraform-create-role"
+  default     = "arn:aws:iam::897729103769:role/terraform-create-role"
 }
 
 
@@ -63,7 +63,7 @@ variable "rolearn" {
 variable "ami_id" {
   description = "AMI ID for client nodes (leave empty to auto-fetch latest Ubuntu)"
   type        = string
-  default     = ""
+  default     = "0cfde0ea8edd312d4"
 }
 
 variable "instance_type" {
