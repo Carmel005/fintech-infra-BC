@@ -85,13 +85,13 @@ variable "key_name" {
 variable "domain_name" {
   description = "Primary domain name for certificate issuance"
   type        = string
-  default     = "*lapin.mendoservices.com"
+  default     = "*.mendoservices.com"
 }
 
 variable "san_domains" {
   description = "SANs (Subject Alternative Names) for SSL certificate"
   type        = list(string)
-  default     = ["lapin.mendoservices.com"]
+  default     = ["*.mendoservices.com"]
 }
 
 variable "route53_zone_id" {
