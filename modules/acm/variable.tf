@@ -2,7 +2,7 @@
 variable "domain_name" {
   description = "Primary domain name for the certificate"
   type        = string
-  default     = "mendoservices.com"
+  default     = "lapin.mendoservices.com"
 }
 
 variable "san_domains" {
